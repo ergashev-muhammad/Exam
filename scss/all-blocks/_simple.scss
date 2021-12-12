@@ -1,0 +1,77 @@
+.simple .container {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 146px;
+}
+
+.simple__info {
+    margin-right: 95px;
+}
+
+.simple__pictures {
+    display: flex;
+}
+
+.simple__pictures__item + .simple__pictures__item {
+    margin-left: 50px;
+}
+
+.simple__info__heading {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #36536B;
+}
+
+.simple__info__paragraph {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0;
+    color: #6C8294;
+}
+
+@media only screen and (max-width: 768px) {
+    .simple .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .simple__info {
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .simple__info__paragraph {
+
+        margin-bottom: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .simple__info__heading {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .simple__info__paragraph {
+        max-width: 328px;
+        width: 100%;
+
+    }
+
+    .simple__pictures__item {
+        max-width: 135px;
+        width: 100%;
+        height: 260px;
+    }
+}

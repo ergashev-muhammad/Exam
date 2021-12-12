@@ -1,0 +1,39 @@
+.header .container {
+    display: flex;
+    padding-top: 45px;
+    margin-bottom: 86px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.header__menu-button{
+    color: #36536B;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .header__menu-button {
+        display: block;
+        margin-left: auto;
+    }
+    
+    .button {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+}
+
+
+
+
+
+
+

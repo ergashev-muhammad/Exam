@@ -1,0 +1,111 @@
+.work .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    padding: 100px 165px;
+    background-color:#1B262F;
+}
+
+.work__heading {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 445px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+    color: #FBFCFE;
+}
+
+.work__paragraph {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    max-width: 445px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 48px;
+    color: #FBFCFE;
+}
+
+.work__link {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding: 16px 32px;
+    border: 1px solid #FBFCFE;
+    border-radius: 24px;
+    color: #FBFCFE;
+    text-decoration: none;
+    
+}
+
+.work__link:active {
+    background-color: #fff;
+    color:#1B262F;
+}
+
+.work__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 536px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.work__right__image {
+    margin-bottom: 27px;
+}
+
+@media only screen and (max-width: 1005px) {
+    .work .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .work__right {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 1004px) {
+    .work .container {
+        align-items: center;
+        text-align: center;
+    }
+    .work .container {
+        margin-top: 50px;
+        padding: 50px 10px;
+    }
+    
+    .work__right {
+        margin: 5px;
+        margin-top: 35px;
+    } 
+}
+
+@media only screen and (max-width: 460px) {
+    .work__right {
+        max-width: 280px;
+        width: 100%;
+    }
+    
+    .work__heading {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    
+   
+}
