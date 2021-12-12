@@ -62,6 +62,10 @@
     cursor: pointer;
 }
 
+.hero__button:active {
+    background-color:#DA6D97;
+}
+
 .hero__paragraph {
     font-family: 'Public Sans', sans-serif;
     font-style: normal;
