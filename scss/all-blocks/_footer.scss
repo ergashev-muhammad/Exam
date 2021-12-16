@@ -23,6 +23,8 @@
     font-size: 15px;
     line-height: 18px;
     color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
 }
 
 .footer .nav__link:active {
@@ -53,18 +55,17 @@
         display: flex;
         flex-direction: column;
     }
-
+    
     .footer__logo {
         margin-bottom: 50px;
     }
-
+    
     .socials {
         margin: 0 auto;
         padding: 0;
     }
-
+    
     .socials__item {
         padding: 0;
     }
 }
-    

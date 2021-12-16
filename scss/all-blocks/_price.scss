@@ -1,0 +1,173 @@
+.price__heading {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 56px;
+    margin: 0;
+    margin-bottom: 72px;
+    color: #36536B;
+    
+}
+
+.pricing {
+    display: flex;
+    
+}
+
+.pricing__plan {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pricing__plan + .pricing__plan {
+    margin-left: 30px;
+}
+
+.pricing__plan__heading {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0;
+    margin-bottom: 16px;
+    color: #BA4270;
+}
+
+.pricing__plan__paragraph {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+    color: #6C8294;
+    
+}
+
+.pricing__plan__cost {
+    font-family: 'DM Serif Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 72px;
+    margin: 0;
+    margin-bottom: 32px;
+    color: #36536B;
+}
+
+.pricing__plan__line {
+    position: absolute;
+    max-width: 800px;
+    width: 100%;
+    height: 1px;
+    transform: translateX(-50%);
+    background: #36536B;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.pricing__plan__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing__plan__item {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    color: #36536B;
+}
+
+.pricing__plan__item--active {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    color: #36536B;
+    opacity: 0.5;
+}
+
+.pricing__plan__link {
+    display: inline-block;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: 96px;
+    padding: 16px 28px; 
+    border: 1px solid #36536B;
+    border-radius: 24px;
+    color: #36536B;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 870px) {
+    .main {
+        text-align: center;
+    }
+    
+    .pricing__plan {
+        max-width: 250px;
+        width: 100%;
+    }
+    
+    .price .container {
+        text-align: center;
+    }
+    
+    .pricing {
+        text-align: center;
+    }
+    
+    .pricing__plan__cost {
+        font-size: 48px;
+    }
+
+    .pricing__plan__heading {
+        font-size: 24px;
+    }
+    
+}
+
+@media only screen and (max-width: 680px) {
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing__plan {
+        max-width: 327px;
+        width: 100%;
+    }
+
+    .pricing__plan__heading {
+        margin-bottom: 80px;
+    }
+
+    .pricing__plan__link {
+        margin-bottom: 48px;
+    }
+}
+
+
+
+
+
